@@ -4,9 +4,14 @@
 Created on Tue Jun 29 12:49:13 2021
 
 @author: sam
+
+This code was written to emulate the game of life. 
 """
 import numpy as np
  
+ """
+ Defines the initial conditions for the game 
+ """
 Landscape = np.zeros([5,5])
 Landscape[1,2]=1;
 Landscape[2,2]=1;
